@@ -1,0 +1,29 @@
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 16px;
+    line-height: 1.5;
+}
+
+nav {
+    margin-bottom: 24px;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+input, select, button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+pre {
+    background: #f4f4f5;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
